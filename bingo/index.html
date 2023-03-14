@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BINGO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+    <h1 class="bingo">BINGO</h1>
+
+    <div class="pattern">
+
+        <table class="table table-bordered">
+
+            <tbody>
+
+                <tr>
+
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+
+                </tr>
+                <tr>
+
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                </tr>
+                <tr>
+
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                </tr>
+                <tr>
+
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                </tr>
+                <tr>
+
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                    <td id="tap" onclick="bingo(this)"></td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+
+        <div class="con">
+
+            <table class="tab table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="bg-primary">B</td>
+                        <td id="on" onclick="b(this)">1</td>
+                        <td onclick="b(this)">2</td>
+                        <td onclick="b(this)">3</td>
+                        <td onclick="b(this)">4</td>
+                        <td onclick="b(this)">5</td>
+                        <td onclick="b(this)">6</td>
+                        <td onclick="b(this)">7</td>
+                        <td onclick="b(this)">8</td>
+                        <td onclick="b(this)">9</td>
+                        <td onclick="b(this)">10</td>
+                        <td onclick="b(this)">11</td>
+                        <td onclick="b(this)">12</td>
+                        <td onclick="b(this)">13</td>
+                        <td onclick="b(this)">14</td>
+                        <td onclick="b(this)">15</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-primary">I</td>
+                        <td onclick="i(this)">16</td>
+                        <td onclick="i(this)">17</td>
+                        <td onclick="i(this)">18</td>
+                        <td onclick="i(this)">19</td>
+                        <td onclick="i(this)">20</td>
+                        <td onclick="i(this)">21</td>
+                        <td onclick="i(this)">22</td>
+                        <td onclick="i(this)">23</td>
+                        <td onclick="i(this)">24</td>
+                        <td onclick="i(this)">25</td>
+                        <td onclick="i(this)">26</td>
+                        <td onclick="i(this)">27</td>
+                        <td onclick="b(this)">28</td>
+                        <td onclick="b(this)">29</td>
+                        <td onclick="b(this)">30</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-primary">N</td>
+                        <td onclick="n(this)">31</td>
+                        <td onclick="n(this)">32</td>
+                        <td onclick="n(this)">33</td>
+                        <td onclick="n(this)">34</td>
+                        <td onclick="n(this)">35</td>
+                        <td onclick="n(this)">36</td>
+                        <td onclick="n(this)">37</td>
+                        <td onclick="n(this)">38</td>
+                        <td onclick="n(this)">39</td>
+                        <td onclick="n(this)">40</td>
+                        <td onclick="n(this)">41</td>
+                        <td onclick="n(this)">42</td>
+                        <td onclick="n(this)">43</td>
+                        <td onclick="n(this)">44</td>
+                        <td onclick="n(this)">45</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-primary">G</td>
+                        <td onclick="g(this)">46</td>
+                        <td onclick="g(this)">47</td>
+                        <td onclick="g(this)">48</td>
+                        <td onclick="g(this)">49</td>
+                        <td onclick="g(this)">50</td>
+                        <td onclick="g(this)">51</td>
+                        <td onclick="g(this)">52</td>
+                        <td onclick="g(this)">53</td>
+                        <td onclick="g(this)">54</td>
+                        <td onclick="g(this)">55</td>
+                        <td onclick="g(this)">56</td>
+                        <td onclick="g(this)">57</td>
+                        <td onclick="n(this)">58</td>
+                        <td onclick="n(this)">59</td>
+                        <td onclick="n(this)">60</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-primary">O</td>
+                        <td onclick="o(this)">61</td>
+                        <td onclick="o(this)">62</td>
+                        <td onclick="o(this)">63</td>
+                        <td onclick="o(this)">64</td>
+                        <td onclick="o(this)">65</td>
+                        <td onclick="o(this)">66</td>
+                        <td onclick="o(this)">67</td>
+                        <td onclick="o(this)">68</td>
+                        <td onclick="o(this)">69</td>
+                        <td onclick="o(this)">70</td>
+                        <td onclick="o(this)">71</td>
+                        <td onclick="o(this)">72</td>
+                        <td onclick="o(this)">73</td>
+                        <td onclick="o(this)">74</td>
+                        <td onclick="o(this)">75</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="call">
+            <h3 class="last" id="clk">Last Called:</h3>
+            <h3 class="called"> Number Called: <span id="count"></span></h3>
+            <button id="reset-button" onclick="resetBtn()">Reset</button>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+<script>
+    document.getElementById('reset-button').addEventListener('click', function () {
+        location.reload();
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</html>
